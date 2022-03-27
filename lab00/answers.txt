@@ -1,0 +1,4 @@
+1.
+2. ps
+3. kill --port
+4. vimdiff

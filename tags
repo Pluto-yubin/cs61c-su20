@@ -1,0 +1,319 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ARRAY_SIZE	lab10/v_add.c	5;"	d	file:
+BINARIES	lab02/Makefile	/^BINARIES=$(VECTOR_PROG) $(BIT_OPS_PROG) $(LFSR_PROG)$/;"	m
+BIT_OPS_OBJS	lab02/Makefile	/^BIT_OPS_OBJS = bit_ops.o test_bit_ops.o$/;"	m
+BIT_OPS_PROG	lab02/Makefile	/^BIT_OPS_PROG = bit_ops$/;"	m
+BMP_ERROR	lab10/libbmp/libbmp.h	/^	BMP_ERROR,$/;"	e	enum:bmp_error
+BMP_FILE_NOT_OPENED	lab10/libbmp/libbmp.h	/^	BMP_FILE_NOT_OPENED = -4,$/;"	e	enum:bmp_error
+BMP_GET_PADDING	lab10/libbmp/libbmp.h	6;"	d
+BMP_HEADER_NOT_INITIALIZED	lab10/libbmp/libbmp.h	/^	BMP_HEADER_NOT_INITIALIZED,$/;"	e	enum:bmp_error
+BMP_INVALID_FILE	lab10/libbmp/libbmp.h	/^	BMP_INVALID_FILE,$/;"	e	enum:bmp_error
+BMP_MAGIC	lab10/libbmp/libbmp.h	4;"	d
+BMP_OK	lab10/libbmp/libbmp.h	/^	BMP_OK = 0$/;"	e	enum:bmp_error
+BMP_PIXEL	lab10/libbmp/libbmp.h	44;"	d
+BUF_SIZE	lab10/omp_apps.h	14;"	d
+CC	lab02/Makefile	/^CC=gcc$/;"	m
+CC	lab07/Makefile	/^CC=gcc$/;"	m
+CC	lab09/Makefile	/^CC=gcc$/;"	m
+CC	lab10/Makefile	/^CC=gcc$/;"	m
+CFLAGS	lab02/Makefile	/^CFLAGS=-ggdb -Wall -std=c99$/;"	m
+CFLAGS	lab07/Makefile	/^CFLAGS=-ggdb -Wall -pedantic -std=gnu99 -O3$/;"	m
+CFLAGS	lab09/Makefile	/^CFLAGS=--std=c99 -Wall$/;"	m
+CFLAGS	lab10/Makefile	/^CFLAGS= -std=gnu99 -c -fopenmp$/;"	m
+COMMON_H	lab09/common.h	2;"	d
+COMPUTE_DOTP_H	lab10/omp_apps.h	3;"	d
+CS61C_VECTOR_H_	lab02/vector.h	2;"	d
+EX2_PROG	lab07/Makefile	/^EX2_PROG=matrixMultiply$/;"	m
+EX3_PROG	lab07/Makefile	/^EX3_PROG=transpose$/;"	m
+EXECUTABLES	lab10/Makefile	/^EXECUTABLES=v_add dotp hello server_basic server_process$/;"	m
+Importer	lab11/textImporter/Importer.java	/^public class Importer {$/;"	c
+LD	lab02/Makefile	/^LD=gcc$/;"	m
+LD	lab07/Makefile	/^LD=gcc$/;"	m
+LDFLAGS	lab02/Makefile	/^LDFLAGS=$/;"	m
+LDFLAGS	lab07/Makefile	/^LDFLAGS=$/;"	m
+LDFLAGS	lab10/Makefile	/^LDFLAGS=-fopenmp$/;"	m
+LFSR_OBJS	lab02/Makefile	/^LFSR_OBJS = lfsr.o test_lfsr.o$/;"	m
+LFSR_PROG	lab02/Makefile	/^LFSR_PROG = lfsr$/;"	m
+LIBHTTP_H	lab10/libhttp/libhttp.h	20;"	d
+LIBHTTP_REQUEST_MAX_SIZE	lab10/libhttp/libhttp.c	9;"	d	file:
+LL_CYCLE_H	lab01/ll_cycle.h	2;"	d
+MAX_LEN	lab01/interactive_hello.c	3;"	d	file:
+MEMCHECK	lab02/Makefile	/^    MEMCHECK=valgrind --tool=memcheck --leak-check=full --track-origins=yes --dsymutil=yes --suppressions=osx_vector.supp$/;"	m
+MEMCHECK	lab02/Makefile	/^    MEMCHECK=valgrind --tool=memcheck --leak-check=full --track-origins=yes$/;"	m
+NUM_ELEMS	lab09/common.h	6;"	d
+OBJECTS	lab10/Makefile	/^OBJECTS=$(SOURCES:.c=.o)$/;"	m
+OUTER_ITERATIONS	lab09/common.h	7;"	d
+PROGS	lab07/Makefile	/^PROGS=$(EX2_PROG) $(EX3_PROG)$/;"	m
+REPEAT	lab10/omp_apps.h	13;"	d
+REPEAT	lab10/v_add.c	6;"	d	file:
+ROUTE	lab10/libhttp/libhttp.h	47;"	d
+ROUTE_END	lab10/libhttp/libhttp.h	52;"	d
+ROUTE_GET	lab10/libhttp/libhttp.h	50;"	d
+ROUTE_POST	lab10/libhttp/libhttp.h	51;"	d
+ROUTE_START	lab10/libhttp/libhttp.h	46;"	d
+THREAD_LAB_SERVER_UTILS_H	lab10/server_utils.h	2;"	d
+TestCase	lab05/testing/test.py	/^class TestCase():$/;"	c
+UNAME_S	lab02/Makefile	/^UNAME_S := $(shell uname -s)$/;"	m
+USAGE	lab10/server.c	/^char *USAGE = "--files directory\/ [--port 8000 --concurrency 5]\\n";$/;"	v
+V0	lab01/eccentric.c	4;"	d	file:
+V1	lab01/eccentric.c	5;"	d	file:
+V2	lab01/eccentric.c	6;"	d	file:
+V3	lab01/eccentric.c	7;"	d	file:
+VECTOR_OBJS	lab02/Makefile	/^VECTOR_OBJS=vector.o vector_test.o$/;"	m
+VECTOR_PROG	lab02/Makefile	/^VECTOR_PROG=vector_test$/;"	m
+__LIBBMP_H__	lab10/libbmp/libbmp.h	2;"	d
+__call__	lab05/testing/test.py	/^  def __call__(self, filename):$/;"	m	class:TestCase	file:
+__init__	lab05/testing/test.py	/^  def __init__(self, circfile, tracefile, register_doc):$/;"	m	class:TestCase
+_bmp_header	lab10/libbmp/libbmp.h	/^typedef struct _bmp_header$/;"	s
+_bmp_img	lab10/libbmp/libbmp.h	/^typedef struct _bmp_img$/;"	s
+_bmp_pixel	lab10/libbmp/libbmp.h	/^typedef struct _bmp_pixel$/;"	s
+accessBytes	lab07/cache.s	/^accessBytes:$/;"	l
+accessWords	lab07/cache.s	/^accessWords:$/;"	l
+allocation_failed	lab02/vector.c	/^static void allocation_failed() {$/;"	f	file:
+also_bad_vector_new	lab02/vector.c	/^vector_t also_bad_vector_new() {$/;"	f
+append_node	lab02/list.c	/^void append_node (node** head_ptr, int new_data) {$/;"	f
+argv	lab11/createIndices.py	/^    argv = sys.argv$/;"	v
+argv	lab11/mostPopular.py	/^    argv = sys.argv$/;"	v
+argv	lab11/perWordDocumentCount.py	/^    argv = sys.argv$/;"	v
+argv	lab11/wordCount.py	/^    argv = sys.argv$/;"	v
+array	lab07/cache.s	/^array:	.word	2048		# max array size specified in BYTES (DO NOT CHANGE)$/;"	l
+array_size	lab10/dotp.c	/^int array_size = 10000000;$/;"	v
+arrays	lab04/megalistmanips.s	/^arrays: .word 5, 6, 7, 8, 9$/;"	l
+bad_vector_new	lab02/vector.c	/^vector_t *bad_vector_new() {$/;"	f
+benchmark	lab07/transpose.c	/^void benchmark(int *A, int *B, int n, int blocksize,$/;"	f
+bfOffBits	lab10/libbmp/libbmp.h	/^	unsigned int   bfOffBits;$/;"	m	struct:_bmp_header
+bfReserved	lab10/libbmp/libbmp.h	/^	unsigned int   bfReserved;$/;"	m	struct:_bmp_header
+bfSize	lab10/libbmp/libbmp.h	/^	unsigned int   bfSize;$/;"	m	struct:_bmp_header
+biBitCount	lab10/libbmp/libbmp.h	/^	unsigned short biBitCount;$/;"	m	struct:_bmp_header
+biClrImportant	lab10/libbmp/libbmp.h	/^	unsigned int   biClrImportant;$/;"	m	struct:_bmp_header
+biClrUsed	lab10/libbmp/libbmp.h	/^	unsigned int   biClrUsed;$/;"	m	struct:_bmp_header
+biCompression	lab10/libbmp/libbmp.h	/^	unsigned int   biCompression;$/;"	m	struct:_bmp_header
+biHeight	lab10/libbmp/libbmp.h	/^	int            biHeight;$/;"	m	struct:_bmp_header
+biPlanes	lab10/libbmp/libbmp.h	/^	unsigned short biPlanes;$/;"	m	struct:_bmp_header
+biSize	lab10/libbmp/libbmp.h	/^	unsigned int   biSize;$/;"	m	struct:_bmp_header
+biSizeImage	lab10/libbmp/libbmp.h	/^	unsigned int   biSizeImage;$/;"	m	struct:_bmp_header
+biWidth	lab10/libbmp/libbmp.h	/^	int            biWidth;$/;"	m	struct:_bmp_header
+biXPelsPerMeter	lab10/libbmp/libbmp.h	/^	int            biXPelsPerMeter;$/;"	m	struct:_bmp_header
+biYPelsPerMeter	lab10/libbmp/libbmp.h	/^	int            biYPelsPerMeter;$/;"	m	struct:_bmp_header
+blue	lab10/libbmp/libbmp.h	/^	unsigned char blue;$/;"	m	struct:_bmp_pixel
+bmp_error	lab10/libbmp/libbmp.h	/^enum bmp_error$/;"	g
+bmp_header	lab10/libbmp/libbmp.h	/^} bmp_header;$/;"	t	typeref:struct:_bmp_header
+bmp_header_init_df	lab10/libbmp/libbmp.c	/^bmp_header_init_df (bmp_header *header,$/;"	f
+bmp_header_read	lab10/libbmp/libbmp.c	/^bmp_header_read (bmp_header *header,$/;"	f
+bmp_header_write	lab10/libbmp/libbmp.c	/^bmp_header_write (const bmp_header *header,$/;"	f
+bmp_img	lab10/libbmp/libbmp.h	/^} bmp_img;$/;"	t	typeref:struct:_bmp_img
+bmp_img_alloc	lab10/libbmp/libbmp.c	/^bmp_img_alloc (bmp_img *img)$/;"	f
+bmp_img_free	lab10/libbmp/libbmp.c	/^bmp_img_free (bmp_img *img)$/;"	f
+bmp_img_init_df	lab10/libbmp/libbmp.c	/^bmp_img_init_df (bmp_img   *img,$/;"	f
+bmp_img_read	lab10/libbmp/libbmp.c	/^bmp_img_read (bmp_img    *img,$/;"	f
+bmp_img_write	lab10/libbmp/libbmp.c	/^bmp_img_write (const bmp_img *img,$/;"	f
+bmp_pixel	lab10/libbmp/libbmp.h	/^} bmp_pixel;$/;"	t	typeref:struct:_bmp_pixel
+bmp_pixel_init	lab10/libbmp/libbmp.c	/^bmp_pixel_init (bmp_pixel           *pxl,$/;"	f
+byteCheck	lab07/cache.s	/^byteCheck:$/;"	l
+byteLoop	lab07/cache.s	/^byteLoop:$/;"	l
+byteZero	lab07/cache.s	/^byteZero:$/;"	l
+compare_unbounded	lab05/testing/test.py	/^def compare_unbounded(student_out, reference_out, filename):$/;"	f
+compute_dotp	lab10/omp_apps.c	/^char* compute_dotp(int arr_size) {$/;"	f
+content_len	lab10/server_utils.c	/^char *content_len = "Content-Length";$/;"	v
+content_type	lab10/server_utils.c	/^char *content_type = "Content-Type";$/;"	v
+copyFile	lab11/textImporter/Importer.java	/^  public static void copyFile(File file) throws Exception {$/;"	m	class:Importer
+createIndices	lab11/createIndices.py	/^def createIndices(file_name, output="spark-wc-out-createIndices"):$/;"	f
+create_default_list	lab03/list_map.s	/^create_default_list:$/;"	l
+create_default_list	lab04/megalistmanips.s	/^create_default_list:$/;"	l
+data	lab02/vector.c	/^    int *data;$/;"	m	struct:vector_t	file:
+dest	lab03/ex2.c	/^int dest[10];$/;"	v
+dest	lab03/ex2.s	/^dest:$/;"	l
+dispatch	lab10/server_utils.c	/^void dispatch(int client_socket_number) {$/;"	f
+done	lab03/list_map.s	/^done:$/;"	l
+done	lab04/megalistmanips.s	/^done:$/;"	l
+dotp_manual_optimized	lab10/omp_apps.c	/^double dotp_manual_optimized(double* x, double* y, int arr_size) {$/;"	f
+dotp_naive	lab10/omp_apps.c	/^double dotp_naive(double* x, double* y, int arr_size) {$/;"	f
+dotp_reduction_optimized	lab10/omp_apps.c	/^double dotp_reduction_optimized(double* x, double* y, int arr_size) {$/;"	f
+dotp_size	lab10/server_utils.c	/^int dotp_size = 100000; \/\/ default to 5 0s, can be changed from command line arg$/;"	v
+end	lab10/timer.py	/^end = time.time()$/;"	v
+end_msg	lab04/megalistmanips.s	/^end_msg:    .asciiz "Lists after: \\n"$/;"	l
+exit	lab03/ex2.s	/^exit:$/;"	l
+exit_with_usage	lab10/server_utils.c	/^void exit_with_usage(char *executable_name) {$/;"	f
+f	lab04/discrete_fn.s	/^f:$/;"	l
+factorial	lab03/factorial.s	/^factorial:$/;"	l
+fib	lab03/ex1.s	/^fib:    $/;"	l
+file_locations	lab05/testing/test.py	/^file_locations = os.getcwd()$/;"	v
+files	lab11/textImporter/Importer.java	/^  static long files = 0;$/;"	f	class:Importer
+fillArray	lab04/megalistmanips.s	/^fillArray: lw t0, 0(a1) #t0 gets array element$/;"	l
+finish	lab03/ex1.s	/^finish: $/;"	l
+flatMapFunc	lab11/createIndices.py	/^def flatMapFunc(document):$/;"	f
+flatMapFunc	lab11/perWordDocumentCount.py	/^def flatMapFunc(document):$/;"	f
+flip_bit	lab02/bit_ops.c	/^void flip_bit(unsigned * x,$/;"	f
+fun	lab03/ex2.c	/^int fun(int x) {$/;"	f
+gen_array	lab10/omp_apps.c	/^double* gen_array(int n) {$/;"	f
+gen_array	lab10/v_add.c	/^double* gen_array(int n) {$/;"	f
+get_bit	lab02/bit_ops.c	/^unsigned get_bit(unsigned x,$/;"	f
+green	lab10/libbmp/libbmp.h	/^	unsigned char green;$/;"	m	struct:_bmp_pixel
+handle_bmp_request	lab10/server_utils.c	/^void handle_bmp_request(int socket_fd, char *path) {$/;"	f
+handle_files_request	lab10/server_utils.c	/^void handle_files_request(int socket_fd, struct http_request *request) {$/;"	f
+handle_report_request	lab10/server_utils.c	/^void handle_report_request(int socket_fd, int arr_size) {$/;"	f
+hash	lab11/textImporter/Importer.java	/^  public static Text hash(Text content) throws Exception {$/;"	m	class:Importer
+header_tag_left	lab10/server_utils.c	/^char *header_tag_left = "<center><h1>";$/;"	v
+header_tag_right	lab10/server_utils.c	/^char *header_tag_right = "<\/h1><hr><\/center>";$/;"	v
+http_end_headers	lab10/libhttp/libhttp.c	/^void http_end_headers(int fd) { dprintf(fd, "\\r\\n"); }$/;"	f
+http_fatal_error	lab10/libhttp/libhttp.c	/^void http_fatal_error(char *message) {$/;"	f
+http_get_mime_type	lab10/libhttp/libhttp.c	/^char *http_get_mime_type(char *file_name) {$/;"	f
+http_get_response_message	lab10/libhttp/libhttp.c	/^char *http_get_response_message(int status_code) {$/;"	f
+http_make_error	lab10/server_utils.c	/^void http_make_error(int socket_fd, int status) {$/;"	f
+http_make_header	lab10/server_utils.c	/^void http_make_header(int sfd,  char *ftype, int status_code, __off_t size) {$/;"	f
+http_request	lab10/libhttp/libhttp.h	/^struct http_request {$/;"	s
+http_request_parse	lab10/libhttp/libhttp.c	/^struct http_request *http_request_parse(int fd) {$/;"	f
+http_send_data	lab10/libhttp/libhttp.c	/^void http_send_data(int fd, char *data, size_t size) {$/;"	f
+http_send_header	lab10/libhttp/libhttp.c	/^void http_send_header(int fd, char *key, char *value) {$/;"	f
+http_send_string	lab10/libhttp/libhttp.c	/^void http_send_string(int fd, char *data) {$/;"	f
+http_serve_directory	lab10/server_utils.c	/^void http_serve_directory(int socket_fd,  char *path) {$/;"	f
+http_serve_file	lab10/server_utils.c	/^void http_serve_file(int socket_fd, char *path, int size) {$/;"	f
+http_start_response	lab10/libhttp/libhttp.c	/^void http_start_response(int fd, int status_code) {$/;"	f
+image_proc	lab10/omp_apps.c	/^char *image_proc(const char* filename) {$/;"	f
+img_header	lab10/libbmp/libbmp.h	/^	bmp_header   img_header;$/;"	m	struct:_bmp_img
+img_pixels	lab10/libbmp/libbmp.h	/^	bmp_pixel  **img_pixels;$/;"	m	struct:_bmp_img
+lfsr_calculate	lab02/lfsr.c	/^void lfsr_calculate(uint16_t *reg) {$/;"	f
+list_size	lab02/test_list.c	/^unsigned int list_size (node** head_ptr) {$/;"	f
+ll_has_cycle	lab01/ll_cycle.c	/^int ll_has_cycle(node *head) {$/;"	f
+logisim_location	lab05/testing/test.py	/^logisim_location = os.path.join(os.getcwd(),"logisim-evolution.jar")$/;"	v
+lookForFiles	lab11/textImporter/Importer.java	/^  static void lookForFiles(File file) throws Exception {$/;"	m	class:Importer
+loop	lab03/ex2.s	/^loop:$/;"	l
+loop	lab03/list_map.s	/^loop:   #do...$/;"	l
+loop	lab04/megalistmanips.s	/^loop: #do...$/;"	l
+main	lab01/eccentric.c	/^int main(void) {$/;"	f
+main	lab01/hello.c	/^int main(int argc, char *argv[]) {$/;"	f
+main	lab01/interactive_hello.c	/^int main(int argc, char *argv[]) {$/;"	f
+main	lab01/no_segfault_ex.c	/^int main() {$/;"	f
+main	lab01/segfault_ex.c	/^int main() {$/;"	f
+main	lab01/test_ll_cycle.c	/^int main(void) {$/;"	f
+main	lab02/test_bit_ops.c	/^int main(int argc,$/;"	f
+main	lab02/test_lfsr.c	/^int main() {$/;"	f
+main	lab02/test_list.c	/^int main() {$/;"	f
+main	lab02/vector_test.c	/^int main(int argc, char **argv) {$/;"	f
+main	lab03/ex1.s	/^main:   $/;"	l
+main	lab03/ex2.c	/^int main() {$/;"	f
+main	lab03/ex2.s	/^main:$/;"	l
+main	lab03/factorial.s	/^main:$/;"	l
+main	lab03/list_map.s	/^main:$/;"	l
+main	lab04/discrete_fn.s	/^main:$/;"	l
+main	lab04/megalistmanips.s	/^main:$/;"	l
+main	lab07/cache.s	/^main:	li	a0, 256		# array size in BYTES (power of 2 < array size)$/;"	l
+main	lab07/matrixMultiply.c	/^int main( int argc, char **argv ) {$/;"	f
+main	lab07/transpose.c	/^int main( int argc, char **argv ) {$/;"	f
+main	lab09/simd.c	/^int main(int argc, char* argv[]) {$/;"	f
+main	lab10/dotp.c	/^int main() {$/;"	f
+main	lab10/hello.c	/^int main() {$/;"	f
+main	lab10/server.c	/^int main(int argc, char **argv) {$/;"	f
+main	lab10/v_add.c	/^int main() {$/;"	f
+main	lab11/textImporter/Importer.java	/^  public static void main(String[] args) {$/;"	m	class:Importer
+malloc	lab03/list_map.s	/^malloc:$/;"	l
+malloc	lab04/megalistmanips.s	/^malloc:$/;"	l
+map	lab03/list_map.s	/^map:$/;"	l
+map	lab04/megalistmanips.s	/^map:$/;"	l
+mapFunc	lab11/createIndices.py	/^def mapFunc(arg):$/;"	f
+mapFunc	lab11/perWordDocumentCount.py	/^def mapFunc(arg):$/;"	f
+mapLoop	lab04/megalistmanips.s	/^mapLoop:$/;"	l
+method	lab10/libhttp/libhttp.h	/^  char *method;$/;"	m	struct:http_request
+mostPopular	lab11/mostPopular.py	/^def mostPopular(file_name, output="spark-wc-out-mostPopular"):$/;"	f
+multMat1	lab07/matrixMultiply.c	/^void multMat1( int n, float *A, float *B, float *C ) {$/;"	f
+multMat2	lab07/matrixMultiply.c	/^void multMat2( int n, float *A, float *B, float *C ) {$/;"	f
+multMat3	lab07/matrixMultiply.c	/^void multMat3( int n, float *A, float *B, float *C ) {$/;"	f
+multMat4	lab07/matrixMultiply.c	/^void multMat4( int n, float *A, float *B, float *C ) {$/;"	f
+multMat5	lab07/matrixMultiply.c	/^void multMat5( int n, float *A, float *B, float *C ) {$/;"	f
+multMat6	lab07/matrixMultiply.c	/^void multMat6( int n, float *A, float *B, float *C ) {$/;"	f
+mystery	lab04/megalistmanips.s	/^mystery:$/;"	l
+n	lab03/ex1.s	/^n: .word 9$/;"	l
+n	lab03/factorial.s	/^n: .word 8$/;"	l
+neg1	lab04/discrete_fn.s	/^neg1:   .asciiz "f(-1) should be 17, and it is: "$/;"	l
+neg2	lab04/discrete_fn.s	/^neg2:   .asciiz "f(-2) should be 61, and it is: "$/;"	l
+neg3	lab04/discrete_fn.s	/^neg3:   .asciiz "f(-3) should be 6, and it is: "$/;"	l
+next	lab01/ll_cycle.h	/^    struct node *next;$/;"	m	struct:node	typeref:struct:node::node
+next	lab02/list.h	/^	struct node *next;$/;"	m	struct:node	typeref:struct:node::node
+node	lab01/ll_cycle.h	/^typedef struct node {$/;"	s
+node	lab01/ll_cycle.h	/^} node;$/;"	t	typeref:struct:node
+node	lab02/list.h	/^typedef struct node {$/;"	s
+node	lab02/list.h	/^} node;$/;"	t	typeref:struct:node
+outDir	lab11/textImporter/Importer.java	/^  static File outDir = new File("convertedOut");$/;"	f	class:Importer
+output	lab04/discrete_fn.s	/^output: .word   6, 61, 17, -38, 19, 42, 5$/;"	l
+path	lab10/libhttp/libhttp.h	/^  char *path;$/;"	m	struct:http_request
+perWordDocumentCount	lab11/perWordDocumentCount.py	/^def perWordDocumentCount(file_name, output="spark-wc-out-perWordDocumentCount"):$/;"	f
+pos1	lab04/discrete_fn.s	/^pos1:   .asciiz "f(1) should be 19, and it is: "$/;"	l
+pos2	lab04/discrete_fn.s	/^pos2:   .asciiz "f(2) should be 42, and it is: "$/;"	l
+pos3	lab04/discrete_fn.s	/^pos3:   .asciiz "f(3) should be 5, and it is: "$/;"	l
+printLoop	lab04/megalistmanips.s	/^printLoop:$/;"	l
+printMeAndRecurse	lab03/list_map.s	/^printMeAndRecurse:$/;"	l
+printMeAndRecurse	lab04/megalistmanips.s	/^printMeAndRecurse:$/;"	l
+print_int	lab04/discrete_fn.s	/^print_int:$/;"	l
+print_list	lab03/list_map.s	/^print_list:$/;"	l
+print_list	lab04/megalistmanips.s	/^print_list:$/;"	l
+print_newline	lab03/list_map.s	/^print_newline:$/;"	l
+print_newline	lab04/discrete_fn.s	/^print_newline:$/;"	l
+print_newline	lab04/megalistmanips.s	/^print_newline:$/;"	l
+print_str	lab04/discrete_fn.s	/^print_str:$/;"	l
+red	lab10/libbmp/libbmp.h	/^	unsigned char red;$/;"	m	struct:_bmp_pixel
+reduceFunc	lab11/createIndices.py	/^def reduceFunc(arg1, arg2):$/;"	f
+reduceFunc	lab11/perWordDocumentCount.py	/^def reduceFunc(arg1, arg2):$/;"	f
+report	lab10/server.c	/^char *report = "report.txt";$/;"	v
+reverse_list	lab02/list.c	/^void reverse_list (node** head_ptr) {$/;"	f
+run_tests	lab05/testing/test.py	/^def run_tests(tests):$/;"	f
+seqFileWriter	lab11/textImporter/Importer.java	/^  static SequenceFile.Writer seqFileWriter;$/;"	f	class:Importer
+serve_forever	lab10/server_utils.c	/^void serve_forever(int *socket_number) {$/;"	f
+server_fd	lab10/server_utils.h	/^int server_fd;$/;"	v
+server_files_directory	lab10/server_utils.h	/^char *server_files_directory;$/;"	v
+server_port	lab10/server_utils.h	/^int server_port;$/;"	v
+set_bit	lab02/bit_ops.c	/^void set_bit(unsigned * x,$/;"	f
+signal_callback_handler	lab10/server_utils.c	/^void signal_callback_handler(int signum) {$/;"	f
+size	lab02/vector.c	/^    size_t size;$/;"	m	struct:vector_t	file:
+sobel	lab10/omp_apps.c	/^int sobel[3][3] = {{-1, 0, 1}, {-2, 0, 2}, {-1, 0, 1}};$/;"	v
+sobel_filter	lab10/omp_apps.c	/^void sobel_filter(bmp_pixel **src, bmp_pixel **dst, int row, int col) {$/;"	f
+source	lab03/ex2.c	/^int source[] = {3, 1, 4, 1, 5, 9, 0};$/;"	v
+source	lab03/ex2.s	/^source:$/;"	l
+splitDocument	lab11/mostPopular.py	/^def splitDocument(document):$/;"	f
+splitDocument	lab11/wordCount.py	/^def splitDocument(document):$/;"	f
+square	lab03/ex2.s	/^square:$/;"	l
+square	lab03/list_map.s	/^square:$/;"	l
+start	lab10/timer.py	/^start = time.time()$/;"	v
+start_msg	lab04/megalistmanips.s	/^start_msg:  .asciiz "Lists before: \\n"$/;"	l
+start_with	lab10/server_utils.c	/^inline int start_with(char *src, char *target) {$/;"	f
+sum	lab09/common.c	/^long long int sum(unsigned int vals[NUM_ELEMS]) {$/;"	f
+sumCounts	lab11/mostPopular.py	/^def sumCounts(a, b):$/;"	f
+sumCounts	lab11/wordCount.py	/^def sumCounts(a, b):$/;"	f
+sum_simd	lab09/common.c	/^long long int sum_simd(unsigned int vals[NUM_ELEMS]) {$/;"	f
+sum_simd_unrolled	lab09/common.c	/^long long int sum_simd_unrolled(unsigned int vals[NUM_ELEMS]) {$/;"	f
+sum_unrolled	lab09/common.c	/^long long int sum_unrolled(unsigned int vals[NUM_ELEMS]) {$/;"	f
+template_str	lab10/server_utils.c	/^const char *template_str = "<!DOCTYPE html> \\$/;"	v
+test	lab01/eccentric.c	/^int test() {$/;"	f
+test_flip_bit	lab02/test_bit_ops.c	/^void test_flip_bit(unsigned x,$/;"	f
+test_get_bit	lab02/test_bit_ops.c	/^void test_get_bit(unsigned x,$/;"	f
+test_set_bit	lab02/test_bit_ops.c	/^void test_set_bit(unsigned x,$/;"	f
+testagain	lab01/eccentric.c	/^int testagain() {$/;"	f
+testfunc	lab01/eccentric.c	/^void testfunc() {$/;"	f
+tests	lab05/testing/test.py	/^tests = [$/;"	v
+toPairs	lab11/mostPopular.py	/^def toPairs(word):$/;"	f
+toPairs	lab11/wordCount.py	/^def toPairs(word):$/;"	f
+totalBytes	lab11/textImporter/Importer.java	/^  static long totalBytes = 0;$/;"	f	class:Importer
+totalRecords	lab11/textImporter/Importer.java	/^  static long totalRecords = 0;$/;"	f	class:Importer
+transpose_blocking	lab07/transpose.c	/^void transpose_blocking(int n, int blocksize, int *dst, int *src) {$/;"	f
+transpose_naive	lab07/transpose.c	/^void transpose_naive(int n, int blocksize, int *dst, int *src) {$/;"	f
+v_add_naive	lab10/v_add.c	/^void v_add_naive(double* x, double* y, double* z) {$/;"	f
+v_add_optimized_adjacent	lab10/v_add.c	/^void v_add_optimized_adjacent(double* x, double* y, double* z) {$/;"	f
+v_add_optimized_chunks	lab10/v_add.c	/^void v_add_optimized_chunks(double* x, double* y, double* z) {$/;"	f
+val	lab02/list.h	/^	int val;$/;"	m	struct:node
+value	lab01/ll_cycle.h	/^    int value;$/;"	m	struct:node
+vector_delete	lab02/vector.c	/^void vector_delete(vector_t *v) {$/;"	f
+vector_get	lab02/vector.c	/^int vector_get(vector_t *v, size_t loc) {$/;"	f
+vector_new	lab02/vector.c	/^vector_t *vector_new() {$/;"	f
+vector_set	lab02/vector.c	/^void vector_set(vector_t *v, size_t loc, int value) {$/;"	f
+vector_t	lab02/vector.c	/^struct vector_t {$/;"	s	file:
+vector_t	lab02/vector.h	/^typedef struct vector_t vector_t;$/;"	t	typeref:struct:vector_t
+verify	lab10/v_add.c	/^int verify(double* x, double* y, void(*funct)(double *x, double *y, double *z)) {$/;"	f
+wordCheck	lab07/cache.s	/^wordCheck:$/;"	l
+wordCount	lab11/wordCount.py	/^def wordCount(file_name, output="spark-wc-out-wordCount"):$/;"	f
+wordLoop	lab07/cache.s	/^wordLoop:$/;"	l
+wordZero	lab07/cache.s	/^wordZero:$/;"	l
+zero	lab04/discrete_fn.s	/^zero:   .asciiz "f(0) should be -38, and it is: "$/;"	l
