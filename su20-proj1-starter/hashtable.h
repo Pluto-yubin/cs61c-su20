@@ -1,4 +1,12 @@
 /*
+ * @Descripttion: Learn something about C_Cpp
+ * @version: 1.0
+ * @Author: Zhang Yubin
+ * @Date: 2022-03-28 15:29:31
+ * @LastEditors: Zhang Yubin
+ * @LastEditTime: 2022-03-28 23:27:21
+ */
+/*
  * This is so the C preprocessor does not try to include multiple copies
  * of the header file if someone uses multiple #include directives.
  */
@@ -14,19 +22,27 @@
 #endif
 
 /*
- * This header file defines an interface to a generic chained hash table. 
+ * This header file defines an interface to a generic chained hash table.
  * It stores void * data and uses two functions, int (*) (void *)
  * and int (*) (void *, void *), to compute the hash and check
  * for equality.
  */
-struct HashBucket {
+typedef int (*equalF)(void *, void *);
+typedef int (*hashF)(void *);
+struct HashBucket
+{
   void *key;
   void *data;
   struct HashBucket *next;
 };
 
-typedef struct HashTable {
-  // -- TODO --
+typedef struct HashTable
+{
+  int size;
+  equalF equalFunction;
+  hashF hashFunction;
+  // flexible array should be the last one in a struct
+  struct HashBucket **data;
   // HINT: Take a look at createHashTable.
 } HashTable;
 
@@ -50,7 +66,7 @@ extern void insertData(HashTable *table, void *key, void *data);
 
 /*
  * This returns the corresponding data for a given key.
- * It returns NULL if the key is not found. 
+ * It returns NULL if the key is not found.
  */
 extern void *findData(HashTable *table, void *key);
 
