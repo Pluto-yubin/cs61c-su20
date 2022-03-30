@@ -36,7 +36,9 @@ test_lfsr.c: lfsr.h
 
 bit_ops.c: bit_ops.h
 test_bit_ops.c: bit_ops.h
-
+# .c.o: is an old fashioned rule
+# the more up-to-date usage is:
+# %.o : %.c
 .c.o:
 	$(CC) -c $(CFLAGS) $<
 
