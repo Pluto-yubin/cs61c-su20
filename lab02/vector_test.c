@@ -1,9 +1,18 @@
+/*
+ * @Descripttion: Learn something about C_Cpp
+ * @version: 1.0
+ * @Author: Zhang Yubin
+ * @Date: 2022-04-01 00:13:38
+ * @LastEditors: Zhang Yubin
+ * @LastEditTime: 2022-04-01 00:19:08
+ */
 #include <stdio.h>
 #include <stdlib.h>
 
 #include "vector.h"
 
-int main(int argc, char **argv) {
+int main(int argc, char **argv)
+{
     vector_t *v;
 
     printf("Calling vector_new()\n");
@@ -23,8 +32,10 @@ int main(int argc, char **argv) {
     printf("Doing a bunch of vector_set()s\n");
     vector_set(v, 0, 98);
     vector_set(v, 11, 15);
+    printf("15 = %d\n", vector_get(v, 11));
     vector_set(v, 15, -23);
     vector_set(v, 24, 65);
+    printf("15 = %d\n", vector_get(v, 11));
     vector_set(v, 500, 3);
     vector_set(v, 12, -123);
     vector_set(v, 15, 21);
