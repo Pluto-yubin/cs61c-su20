@@ -15,15 +15,15 @@ main:
     la s1 vector1
 
     # Set vector attributes
-	addi s2, x0, 9
+	addi s2, x0, 3
 
 
     # Call dot function
 	mv a0, s0
 	mv a1, s1
 	mv a2, s2
-	addi a3, x0, 4
-	addi a4, x0, 4
+	addi a3, x0, 1
+	addi a4, x0, 2
 	jal ra dot
 
     # Print integer result

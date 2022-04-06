@@ -25,6 +25,8 @@ dot:
 	sw ra, 8(sp)
 	mv s0, a0
 	mv s1, a1
+	slli a3, a3, 2
+	slli a4, a4, 2
 	add t3, x0, x0
 
 
@@ -44,10 +46,5 @@ loop_end:
 	lw s0, 0(sp)
 	lw s1, 4(sp)
 	lw ra, 8(sp)
+	addi sp, sp, 12
 	jr ra
-
-
-    # Epilogue
-
-
-    ret
