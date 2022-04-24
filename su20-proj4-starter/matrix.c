@@ -106,10 +106,19 @@ int allocate_matrix_ref(matrix** mat, matrix* from, int offset, int rows, int co
 void deallocate_matrix(matrix* mat)
 {
     /* TODO: YOUR CODE HERE */
-    if (mat == NULL || mat->ref_cnt > 1)
+    /* TODO: YOUR CODE HERE */
+    if (mat == NULL)
         return;
-    if (mat->data != NULL)
+    if (mat->ref_cnt > 1) {
+        mat->ref_cnt -= 1;
+    } else if (mat->parent != NULL) {
+        if (mat->parent->ref_cnt > 1) {
+            mat->parent->ref_cnt -= 1;
+        }
+        mat->data == NULL;
+    } else {
         free(mat->data);
+    }
 }
 
 /*
